@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sectool.securenot">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="sectool.securenotes.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="sectool.securenotes.restoreBackup"
+            android:label="Импортировать в secureNotes">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="sectool.securenotes.firstStart"
+            android:label="@string/title_activity_first_start"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="sectool.securenotes.editNote" />
+        <activity android:name="sectool.securenotes.editPass" />
+        <activity android:name="sectool.securenotes.setPass" />
+        <activity android:name="sectool.securenotes.createBackup" />
+        <activity android:name="sectool.securenotes.SettingsActivity" />
+        <activity android:name="sectool.securenotes.importInfo" />
+        <activity android:name="sectool.securenotes.info"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,40 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_sync_frequency_titles"
+        android:entryValues="@array/pref_sync_frequency_values"
+        android:key="0"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Автосохранение" />
+
+    <CheckBoxPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_sync_frequency_titles"
+        android:entryValues="@array/pref_sync_frequency_values"
+        android:key="1"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Предлагать смену пароля(1/месяц)" />
+
+    <CheckBoxPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_sync_frequency_titles"
+        android:entryValues="@array/pref_sync_frequency_values"
+        android:key="2"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Защита от скриншота" />
+
+    <CheckBoxPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_sync_frequency_titles"
+        android:entryValues="@array/pref_sync_frequency_values"
+        android:key="3"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Скрывать пароли под звёздочками" />
+    
+
+</PreferenceScreen>

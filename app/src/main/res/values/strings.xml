@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">SecureNotes</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- SETTINGS PREFENCES-->
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+    <string name="title_activity_first_start">firstStart</string>
+    <string name="firstStart1TXT">Вы только что установили и впервые запустили SecureNotes</string>
+    <string name="fsInfoInfo">Вы впервые запустили SecureNotes! SecureNotes поможет Вам хранить Ваши пароли и текстовые заметки,
+        \nа так же обеспечит их сохранность от посторонних лиц!</string>
+    <string name="fsInfoSec">Ваши заметки и пароли будут надёжно зашифрованы криптостойким алгоритмом AES-256, а Ваш \nпароль
+        будет под надёжной защитой сразу двух алгоритмов необратимого шифрования!
+    </string>
+    <string name="fsInfoStart">\t \t Начните использовать SecureNotes!
+    </string>
+    <string name="txtSave">сохранить</string>
+    <string name="txtNewNamePass">Введите имя для нового пароля</string>
+    <string name="txtCreate">Создать</string>
+    <string name="txtNewPass">Создание нового пароля</string>
+    <string name="txtErrBigName">Ошибка! Имя не может быть больше </string>
+    <string name="txtChars">знаков</string>
+    <string name="txtNewNote">Создание новой заметки</string>
+    <string name="txtNewNameNote">Введите имя новой заметки</string>
+    <string name="txtNotes">Заметки</string>
+    <string name="txtPass">Пароли</string>
+    <string name="txtCreateNewGroup">Создание новой группы</string>
+    <string name="txtNameNewGroup">Введите имя группы</string>
+    <string name="txtResetPass">Смена пароля</string>
+    <string name="txtInputOldPass">Введите старый пароль:</string>
+    <string name="txtContinue">Далее</string>
+    <string name="txtInputNewPass">Введите новый пароль:</string>
+    <string name="txtInputNewPassReplay">Повторно введите новый пароль:</string>
+    <string name="txtErrorWrongDoublePass">Пароли не совпадают!!!</string>
+    <string name="txtEditPass">Редактирование пароля</string>
+    <string name="txtSettings">Настройки</string>
+    <string name="txtGenPass">Сгенерирован пароль: </string>
+    <string name="txtWrondPass">Неверный пароль</string>
+    <string name="txtPassResetGood">Вы успешно изменили пароль!</string>
+    <string name="txtStartup">Поздравляем! Если вы желаете настроить безопасность приложения зайдите \n
+        в меню и нажмите "Настройки"</string>
+    <string name="txtSetPass">Установка пароля</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="txtResetMasterPass">Мастер пароль не менялся более месяца! Рекомендуется сменить матер-пароль!</string>
+    <string name="txtResetPassOld">Пароль не изменялся более месяца! Рекомендуется изменить пароль!</string>
+    <string name="appName">Безопасные заметки и пароли</string>
+    <string name="txtAuth">Авторизация</string>
+    <string name="txtEnterTxt">Введите пароль</string>
+    <string name="txtEnter">Вход</string>
+    <string name="txtAuthFiled">Ошибка авторизации! Неверный пароль</string>
+    <string name="txtCopy">Копировать поле</string>
+    <string name="txtName">Имя:</string>
+    <string name="txtLogin">Логин:</string>
+    <string name="txtpwd">Пароль:</string>
+    <string name="txtGen">Создать пароль</string>
+    <string name="txtZaglavBukviy">Заглавные буквы</string>
+    <string name="txtMin6Symbol">Минимум 6 символов</string>
+    <string name="txtNext">Далее</string>
+    <string name="txtStart">Начать</string>
+    <string name="txtAddNote">Добавить заметку</string>
+    <string name="txtAddPass">Добавить пароль</string>
+    <string name="txtClose">Закрыть</string>
+    <string name="txtImportData">Импорт данных</string>
+    <string name="txtHello">Добро пожаловать</string>
+    <string name="txtSec">Безопасность</string>
+    <string name="txtGogGoGo">Приступайте!</string>
+    <string name="txtBack">Назад</string>
+    <string name="txtUrl">URL:</string>
+    <string name="txtInfo">Инфо.:</string>
+    <string name="txtForImportInfo">Для восстановления данных из резервной копии выбере файл .SNbackup, сделайте долгое нажатие на него и нажмите Отправить, в списке приложений выбере Импорт в SecureNotes</string>
+    <string name="txtInfoProg">SecureNotes - приложение для создания простых заметок и хранения паролей учётных записей. Приложение обеспечивает высокую безопасность данных путём шифрования хранимой информации, а так же за счёт простых принудительных правил безопасности. Версия 0.1</string>
+    <string name="txtWarningImport">Внимание! При восстановлении из копии все текущие данные будут заменены (вкюлчая пароль)\n\nВведите текущий пароль:</string>
+    <string name="txtNext2">Продолжить</string>
+    <string name="txtSetPass2">Установите пароль</string>
+    <string name="txtMin1Number">Должен содержать цифру(ы)</string>
+    <string name="txtSelect">Выбрать</string>
+    <string name="txtinfoLabel">Информация</string>
+    <string name="txtCreateBackup">Создать резервную копию</string>
+    <string name="txtResetPassSettings">Сменить пароль</string>
+    <string name="txtNotEqualsPass">Ошибка! Пароли не совпадают!</string>
+    <string name="txtRestoreBackup">Восстановить из резервной копии</string>
+    <string name="txtNotPermission">Недостаточно разрешений!</string>
+    <string name="txtSelectFolder">Выберете каталог</string>
+    <string name="txtBadName">Некорректное или длинное имя</string>
+    <string name="txtExsistsNotee">Заметка с таким именем уже существует</string>
+    <string name="txtExistsNamePass">Пароль с таким именем уже существует</string>
+    <string name="txtCopyInBuff">Скопировано в буфер обмена на 25 секунд</string>
+    <string name="txtCreateNote">Создание заметки</string>
+    <string name="txtEditNote">Редактирование заметки</string>
+    <string name="txtNoteCreateCompl">Заметка создана!</string>
+    <string name="txtCreatePassCompl">Пароль создан!</string>
+    <string name="txtCreatePass">Создание пароля</string>
+    <string name="txtRename">Переименовывание</string>
+    <string name="txtSmallRename">переименовать</string>
+    <string name="txtRename3">переименовать</string>
+    <string name="txtDataRestore">Данные восстановлены!</string>
+    <string name="txtSaveDataMsg">Изменения сохранены!</string>
+
+</resources>
